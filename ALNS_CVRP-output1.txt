@@ -1,0 +1,123 @@
+rand_d_max=0.4
+rand_d_min=0.1
+worst_d_min=5
+worst_d_max=20
+regret_n=5
+#Score
+r1=30
+r2=20
+r3=10
+# Reaction factor of action weight
+rho=0.4
+# Reduction factor of threshold acceptance
+phi=0.9997
+# Set number of epochs
+epochs=20
+# The number of iterations that are executed before an adjustment a.k.a update period
+pu=5
+vehicle_cap=80
+# Optimization type: Minimize travel distance
+opt_type=1
+
+---> best heuristic objective: 2331.9409055766027
+
+0/20:0/5,  best heuristic objective: 4496.020248766595
+0/20:1/5,  best heuristic objective: 3694.966604245485
+0/20:2/5,  best heuristic objective: 3694.966604245485
+0/20:3/5,  best heuristic objective: 3694.966604245485
+0/20:4/5,  best heuristic objective: 3428.7640802194405
+1/20:0/5,  best heuristic objective: 3109.885084863844
+1/20:1/5,  best heuristic objective: 2838.5409935620523
+1/20:2/5,  best heuristic objective: 2838.5409935620523
+1/20:3/5,  best heuristic objective: 2838.5409935620523
+1/20:4/5,  best heuristic objective: 2838.5409935620523
+2/20:0/5,  best heuristic objective: 2838.5409935620523
+2/20:1/5,  best heuristic objective: 2838.5409935620523
+2/20:2/5,  best heuristic objective: 2838.5409935620523
+2/20:3/5,  best heuristic objective: 2838.5409935620523
+2/20:4/5,  best heuristic objective: 2726.4170183581873
+3/20:0/5,  best heuristic objective: 2693.071767796381
+3/20:1/5,  best heuristic objective: 2539.424016086339
+3/20:2/5,  best heuristic objective: 2412.9329815276233
+3/20:3/5,  best heuristic objective: 2412.9329815276233
+3/20:4/5,  best heuristic objective: 2412.9329815276233
+4/20:0/5,  best heuristic objective: 2412.9329815276233
+4/20:1/5,  best heuristic objective: 2412.9329815276233
+4/20:2/5,  best heuristic objective: 2412.9329815276233
+4/20:3/5,  best heuristic objective: 2412.9329815276233
+4/20:4/5,  best heuristic objective: 2412.9329815276233
+5/20:0/5,  best heuristic objective: 2331.9409055766027
+5/20:1/5,  best heuristic objective: 2331.9409055766027
+5/20:2/5,  best heuristic objective: 2331.9409055766027
+5/20:3/5,  best heuristic objective: 2331.9409055766027
+5/20:4/5,  best heuristic objective: 2331.9409055766027
+6/20:0/5,  best heuristic objective: 2331.9409055766027
+6/20:1/5,  best heuristic objective: 2331.9409055766027
+6/20:2/5,  best heuristic objective: 2331.9409055766027
+6/20:3/5,  best heuristic objective: 2331.9409055766027
+6/20:4/5,  best heuristic objective: 2331.9409055766027
+7/20:0/5,  best heuristic objective: 2331.9409055766027
+7/20:1/5,  best heuristic objective: 2331.9409055766027
+7/20:2/5,  best heuristic objective: 2331.9409055766027
+7/20:3/5,  best heuristic objective: 2331.9409055766027
+7/20:4/5,  best heuristic objective: 2331.9409055766027
+8/20:0/5,  best heuristic objective: 2331.9409055766027
+8/20:1/5,  best heuristic objective: 2331.9409055766027
+8/20:2/5,  best heuristic objective: 2331.9409055766027
+8/20:3/5,  best heuristic objective: 2331.9409055766027
+8/20:4/5,  best heuristic objective: 2331.9409055766027
+9/20:0/5,  best heuristic objective: 2331.9409055766027
+9/20:1/5,  best heuristic objective: 2331.9409055766027
+9/20:2/5,  best heuristic objective: 2331.9409055766027
+9/20:3/5,  best heuristic objective: 2331.9409055766027
+9/20:4/5,  best heuristic objective: 2331.9409055766027
+10/20:0/5,  best heuristic objective: 2331.9409055766027
+10/20:1/5,  best heuristic objective: 2331.9409055766027
+10/20:2/5,  best heuristic objective: 2331.9409055766027
+10/20:3/5,  best heuristic objective: 2331.9409055766027
+10/20:4/5,  best heuristic objective: 2331.9409055766027
+11/20:0/5,  best heuristic objective: 2331.9409055766027
+11/20:1/5,  best heuristic objective: 2331.9409055766027
+11/20:2/5,  best heuristic objective: 2331.9409055766027
+11/20:3/5,  best heuristic objective: 2331.9409055766027
+11/20:4/5,  best heuristic objective: 2331.9409055766027
+12/20:0/5,  best heuristic objective: 2331.9409055766027
+12/20:1/5,  best heuristic objective: 2331.9409055766027
+12/20:2/5,  best heuristic objective: 2331.9409055766027
+12/20:3/5,  best heuristic objective: 2331.9409055766027
+12/20:4/5,  best heuristic objective: 2331.9409055766027
+13/20:0/5,  best heuristic objective: 2331.9409055766027
+13/20:1/5,  best heuristic objective: 2331.9409055766027
+13/20:2/5,  best heuristic objective: 2331.9409055766027
+13/20:3/5,  best heuristic objective: 2331.9409055766027
+13/20:4/5,  best heuristic objective: 2331.9409055766027
+14/20:0/5,  best heuristic objective: 2331.9409055766027
+14/20:1/5,  best heuristic objective: 2331.9409055766027
+14/20:2/5,  best heuristic objective: 2331.9409055766027
+14/20:3/5,  best heuristic objective: 2331.9409055766027
+14/20:4/5,  best heuristic objective: 2331.9409055766027
+15/20:0/5,  best heuristic objective: 2331.9409055766027
+15/20:1/5,  best heuristic objective: 2331.9409055766027
+15/20:2/5,  best heuristic objective: 2331.9409055766027
+15/20:3/5,  best heuristic objective: 2331.9409055766027
+15/20:4/5,  best heuristic objective: 2331.9409055766027
+16/20:0/5,  best heuristic objective: 2331.9409055766027
+16/20:1/5,  best heuristic objective: 2331.9409055766027
+16/20:2/5,  best heuristic objective: 2331.9409055766027
+16/20:3/5,  best heuristic objective: 2331.9409055766027
+16/20:4/5,  best heuristic objective: 2331.9409055766027
+17/20:0/5,  best heuristic objective: 2331.9409055766027
+17/20:1/5,  best heuristic objective: 2331.9409055766027
+17/20:2/5,  best heuristic objective: 2331.9409055766027
+17/20:3/5,  best heuristic objective: 2331.9409055766027
+17/20:4/5,  best heuristic objective: 2331.9409055766027
+18/20:0/5,  best heuristic objective: 2331.9409055766027
+18/20:1/5,  best heuristic objective: 2331.9409055766027
+18/20:2/5,  best heuristic objective: 2331.9409055766027
+18/20:3/5,  best heuristic objective: 2331.9409055766027
+18/20:4/5,  best heuristic objective: 2331.9409055766027
+19/20:0/5,  best heuristic objective: 2331.9409055766027
+19/20:1/5,  best heuristic objective: 2331.9409055766027
+19/20:2/5,  best heuristic objective: 2331.9409055766027
+19/20:3/5,  best heuristic objective: 2331.9409055766027
+19/20:4/5,  best heuristic objective: 2331.9409055766027

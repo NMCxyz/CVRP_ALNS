@@ -1,0 +1,124 @@
+rand_d_max=0.4
+rand_d_min=0.1
+worst_d_min=5
+worst_d_max=20
+regret_n=3
+#Score
+r1=65
+r2=45
+r3=25
+# Reaction factor of action weight
+rho=0.35
+# Reduction factor of threshold acceptance
+phi=0.9997
+# Set number of epochs
+epochs=20
+# The number of iterations that are executed before an adjustment a.k.a update period
+pu=5
+vehicle_cap=80
+# Optimization type
+opt_type=1
+tol = 0.2
+
+---> best heuristic objective: 2459.3583874563374
+
+0/20:0/5,  best heuristic objective: 5153.510090364812
+0/20:1/5,  best heuristic objective: 3785.1316249870024
+0/20:2/5,  best heuristic objective: 3785.1316249870024
+0/20:3/5,  best heuristic objective: 3785.1316249870024
+0/20:4/5,  best heuristic objective: 3691.951083140452
+1/20:0/5,  best heuristic objective: 3418.1038443023353
+1/20:1/5,  best heuristic objective: 3081.214600868337
+1/20:2/5,  best heuristic objective: 2826.263625897298
+1/20:3/5,  best heuristic objective: 2762.3952459688544
+1/20:4/5,  best heuristic objective: 2762.3952459688544
+2/20:0/5,  best heuristic objective: 2762.3952459688544
+2/20:1/5,  best heuristic objective: 2762.3952459688544
+2/20:2/5,  best heuristic objective: 2762.3952459688544
+2/20:3/5,  best heuristic objective: 2762.3952459688544
+2/20:4/5,  best heuristic objective: 2762.3952459688544
+3/20:0/5,  best heuristic objective: 2762.3952459688544
+3/20:1/5,  best heuristic objective: 2762.3952459688544
+3/20:2/5,  best heuristic objective: 2728.248305776724
+3/20:3/5,  best heuristic objective: 2728.248305776724
+3/20:4/5,  best heuristic objective: 2728.248305776724
+4/20:0/5,  best heuristic objective: 2728.248305776724
+4/20:1/5,  best heuristic objective: 2728.248305776724
+4/20:2/5,  best heuristic objective: 2728.248305776724
+4/20:3/5,  best heuristic objective: 2662.574212380012
+4/20:4/5,  best heuristic objective: 2627.0030006999696
+5/20:0/5,  best heuristic objective: 2627.0030006999696
+5/20:1/5,  best heuristic objective: 2627.0030006999696
+5/20:2/5,  best heuristic objective: 2627.0030006999696
+5/20:3/5,  best heuristic objective: 2627.0030006999696
+5/20:4/5,  best heuristic objective: 2627.0030006999696
+6/20:0/5,  best heuristic objective: 2627.0030006999696
+6/20:1/5,  best heuristic objective: 2627.0030006999696
+6/20:2/5,  best heuristic objective: 2627.0030006999696
+6/20:3/5,  best heuristic objective: 2627.0030006999696
+6/20:4/5,  best heuristic objective: 2627.0030006999696
+7/20:0/5,  best heuristic objective: 2627.0030006999696
+7/20:1/5,  best heuristic objective: 2627.0030006999696
+7/20:2/5,  best heuristic objective: 2627.0030006999696
+7/20:3/5,  best heuristic objective: 2627.0030006999696
+7/20:4/5,  best heuristic objective: 2627.0030006999696
+8/20:0/5,  best heuristic objective: 2627.0030006999696
+8/20:1/5,  best heuristic objective: 2627.0030006999696
+8/20:2/5,  best heuristic objective: 2627.0030006999696
+8/20:3/5,  best heuristic objective: 2627.0030006999696
+8/20:4/5,  best heuristic objective: 2582.027671112113
+9/20:0/5,  best heuristic objective: 2582.027671112113
+9/20:1/5,  best heuristic objective: 2582.027671112113
+9/20:2/5,  best heuristic objective: 2582.027671112113
+9/20:3/5,  best heuristic objective: 2582.027671112113
+9/20:4/5,  best heuristic objective: 2582.027671112113
+10/20:0/5,  best heuristic objective: 2582.027671112113
+10/20:1/5,  best heuristic objective: 2582.027671112113
+10/20:2/5,  best heuristic objective: 2582.027671112113
+10/20:3/5,  best heuristic objective: 2582.027671112113
+10/20:4/5,  best heuristic objective: 2528.4949838119655
+11/20:0/5,  best heuristic objective: 2528.4949838119655
+11/20:1/5,  best heuristic objective: 2528.4949838119655
+11/20:2/5,  best heuristic objective: 2528.4949838119655
+11/20:3/5,  best heuristic objective: 2528.4949838119655
+11/20:4/5,  best heuristic objective: 2528.4949838119655
+12/20:0/5,  best heuristic objective: 2528.4949838119655
+12/20:1/5,  best heuristic objective: 2528.4949838119655
+12/20:2/5,  best heuristic objective: 2528.4949838119655
+12/20:3/5,  best heuristic objective: 2528.4949838119655
+12/20:4/5,  best heuristic objective: 2528.4949838119655
+13/20:0/5,  best heuristic objective: 2528.4949838119655
+13/20:1/5,  best heuristic objective: 2528.4949838119655
+13/20:2/5,  best heuristic objective: 2528.4949838119655
+13/20:3/5,  best heuristic objective: 2528.4949838119655
+13/20:4/5,  best heuristic objective: 2528.4949838119655
+14/20:0/5,  best heuristic objective: 2528.4949838119655
+14/20:1/5,  best heuristic objective: 2528.4949838119655
+14/20:2/5,  best heuristic objective: 2528.4949838119655
+14/20:3/5,  best heuristic objective: 2528.4949838119655
+14/20:4/5,  best heuristic objective: 2528.4949838119655
+15/20:0/5,  best heuristic objective: 2528.4949838119655
+15/20:1/5,  best heuristic objective: 2459.4774939940935
+15/20:2/5,  best heuristic objective: 2459.3583874563374
+15/20:3/5,  best heuristic objective: 2459.3583874563374
+15/20:4/5,  best heuristic objective: 2459.3583874563374
+16/20:0/5,  best heuristic objective: 2459.3583874563374
+16/20:1/5,  best heuristic objective: 2459.3583874563374
+16/20:2/5,  best heuristic objective: 2459.3583874563374
+16/20:3/5,  best heuristic objective: 2459.3583874563374
+16/20:4/5,  best heuristic objective: 2459.3583874563374
+17/20:0/5,  best heuristic objective: 2459.3583874563374
+17/20:1/5,  best heuristic objective: 2459.3583874563374
+17/20:2/5,  best heuristic objective: 2459.3583874563374
+17/20:3/5,  best heuristic objective: 2459.3583874563374
+17/20:4/5,  best heuristic objective: 2459.3583874563374
+18/20:0/5,  best heuristic objective: 2459.3583874563374
+18/20:1/5,  best heuristic objective: 2459.3583874563374
+18/20:2/5,  best heuristic objective: 2459.3583874563374
+18/20:3/5,  best heuristic objective: 2459.3583874563374
+18/20:4/5,  best heuristic objective: 2459.3583874563374
+19/20:0/5,  best heuristic objective: 2459.3583874563374
+19/20:1/5,  best heuristic objective: 2459.3583874563374
+19/20:2/5,  best heuristic objective: 2459.3583874563374
+19/20:3/5,  best heuristic objective: 2459.3583874563374
+19/20:4/5,  best heuristic objective: 2459.3583874563374
